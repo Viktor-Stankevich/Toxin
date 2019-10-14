@@ -29,7 +29,7 @@ a {
     text-decoration: none;
 
 
-    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif;
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -68,6 +68,17 @@ h1, h2 {
     font-family: 'Conv_Quicksand-Regular', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
+
+    color: #1F2041;
+}
+
+h3 {
+    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
 
     color: #1F2041;
 }
@@ -161,3 +172,4 @@ input:-moz-placeholder{
 @import './fonts.scss';
 @import '../../node_modules/air-datepicker/dist/css/datepicker.css';
 @import '../main/scss/main.scss';
+@import '../footer/scss/footer.scss';

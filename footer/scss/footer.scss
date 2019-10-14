@@ -1,0 +1,45 @@
+.footer {
+    position: relative;
+    top: 70px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 248px);
+    padding: 125px 100px;
+    width: 100%;
+    height: 163px;
+    
+}
+
+
+
+.footer .footer__logo-and-discription .fotter__logo_image {
+    margin: 15px 0;
+}
+
+.footer .footer__logo-and-discription .footer__logo_name {
+    padding: 28.33px 12.5px;
+}
+.footer .footer__logo-and-discription p {
+    width: 260px;
+}
+
+.footer .footer__navigation h3,
+.footer .footer__about-us h3 {
+    margin-left: 45px;
+}
+
+.footer .footer__navigation ul li,
+.footer .footer__about-us ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.footer .footer__about-us ul li {
+    margin-left: -41px;
+}
+
+.footer .footer__about-us h3 {
+    margin-left: -2px;
+}
