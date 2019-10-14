@@ -1,0 +1,15 @@
+#popup_enter.mfp-hide
+    form.content_enter(method="post")
+        .content_enter__enter-name
+            h1 Войти
+        .content_enter__enter-email
+            input(type="email" placeholder="Email")
+        .contetn_enter__enter-password
+            input(type="password" placeholder="Пароль")
+        .content_enter__enter-btn
+            p
+                input(type="submit" value="Войти") 
+                i.material-icons arrow_forward
+        .content_enter__enter-noAccount
+            p Нет аккаунта на Toxin?
+            a.btn_registration(href="#popup_registration") создать

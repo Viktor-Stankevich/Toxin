@@ -1,0 +1,40 @@
+#popup_registration.mfp-hide
+    .content_registration
+        .content_registration__registration-name
+            h1 Регистрация аккаунта
+        .content_registration__registration-input-name
+            input(type="text" placeholder="Имя")
+        .content_registration__registration-input-secondName
+            input(type="text" placeholder="Фамилия")
+        .content_registration__registration-sex
+            label.checkbox.male
+                input(type="checkbox")
+                span.custom-checkbox
+                span.checkbox-text Мужчина
+            label.checkbox.female
+                input(type="checkbox")
+                span.custom-checkbox
+                span.checkbox-text Женщина
+        .content_registration__registration-birthday-name
+            h2 дата рождения
+        .content_registration__registration-birthday-input
+            input.date(type="text" placeholder="ДД.ММ.ГГГГ")
+        .content_registration__registration-data-for-enter-name
+            h2 данные для входа в сервис
+        .content_registration__registration-data-for-enter-email
+            input(type="email" placeholder="Email")
+        .content_registration__registration-data-for-enter-password
+            input(type="password" placeholder="Пароль")
+        .content_registration__registration-special
+            p Получать спецпредложения
+            label.switch
+                input(type="checkbox" class="switch_chek")
+                span.slider.round
+        .content_registration__registration-btn
+            p
+                input(type="submit" placeholder="перейти к оплате")
+                i.material-icons arrow_forward
+        .content_registration__registration-noAccount
+            p   Уже есть аккаунт на Toxin
+            a.btn_enter(href="#popup_enter") войти
+
