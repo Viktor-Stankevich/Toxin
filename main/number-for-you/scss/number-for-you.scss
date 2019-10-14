@@ -1,0 +1,99 @@
+.number-for-you__title h1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #1f2041;
+}
+
+.number-for-you__arrival-and-departure {
+    display: flex;
+}
+
+.number-for-you__arrival-and-departure label .material-icons{
+    position: relative;
+    top: -35px;
+    float: right;
+    margin-right: 25px;
+
+    color: rgba(31, 32, 65, 0.5);;
+}
+
+.number-for-you__guests label .material-icons {
+    position: relative;
+    top: -35px;
+    float: right;
+    margin-right: 5px;
+
+    color: rgba(31, 32, 65, 0.5);;
+}
+
+.number-for-you__arrival-and-departure input,
+.number-for-you__arrival-and-departure label {
+    display: block;
+
+}
+
+.number-for-you__arrival-and-departure label {
+    margin-top: 20px;
+}
+
+.number-for-you__arrival-and-departure input {
+    width: 150px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    margin-right: 20px;
+}
+
+.number-for-you__guests {
+    display: flex;
+}
+
+.number-for-you__guests input,
+.number-for-you__guests label {
+    display: block;
+}
+
+.number-for-you__guests label {
+    margin-top: 20px;
+}
+
+.number-for-you__guests input {
+    width: 320px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.number-for-you__btn input {
+    width: 320px;
+    height: 44px;
+
+    cursor: pointer;
+
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    color: #fff;
+
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+}
+
+.number-for-you__btn .material-icons {
+    position: relative;
+    top: -35px;
+    float: right;
+    margin-right: 40px;
+
+    color: #fff;
+}
