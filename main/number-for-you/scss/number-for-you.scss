@@ -97,3 +97,26 @@
 
     color: #fff;
 }
+
+@media screen and (max-width: 1330px) {
+    .number-for-you__title h1 {
+        font-size: 18px;
+    }
+    .number-for-you__arrival-and-departure input {
+        width: 110px;
+        
+    }
+    .number-for-you__guests input {
+        width: 240px;
+    }
+    .number-for-you__arrival-and-departure label {
+        margin-top: 5px;
+    }
+    .number-for-you__guests label {
+        margin-top: 0px;
+    }
+    .number-for-you__btn input  {
+        width: 240px;
+        margin-top: -25px;
+    }
+}

@@ -4,6 +4,12 @@ main {
     height: 831px;
 }
 
+@media screen and(max-width: 1330px) {
+    .flexible-image {
+        width: 70%;
+    }
+}
+
 main .main_imgae p {
     position: absolute;
     width: 297px;
@@ -30,5 +36,17 @@ main .main_imgae p {
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+
+@media screen and (max-width: 1330px) {
+    .main_number-for-you {
+        width: 300px;
+        height: 290px;
+        top: 30px;
+        left: 100px;
+        padding-top: 10px;
+    }
+}
+
+
 
 @import '../number-for-you/scss/number-for-you.scss';

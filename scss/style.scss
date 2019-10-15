@@ -109,7 +109,7 @@ label {
 //Стили для гибких изоброжений 
 
 .flexible-image {
-    width: 100%;
+    max-width: 100%;
 }
 
 //Стили для значения кнопок отправки формы
@@ -167,6 +167,12 @@ input:-moz-placeholder{
     line-height: 24px;
     color: rgba(31, 32, 65, 0.25);
     padding: 12px 265px 8px 15px;
+}
+
+@media screen and (max-width: 1330px) {
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+    }
 }
 
 @import './fonts.scss';

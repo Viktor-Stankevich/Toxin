@@ -6,6 +6,7 @@ header {
 }
 //Позиция логотипа
 header .header_logo {
+    display: inline;
     padding-left: 57.1428571%;
 }
 
@@ -14,20 +15,31 @@ header .header_logo .logo_image {
 }
 
 header .header_logo .logo_name {
-    position: fixed;
-    padding: 28.33px 12.5px;
+    position: relative;
+    top: -25px;
+    left: 10px;
 }
+
+@media screen and (max-width: 1330px) {
+    header .header_logo .logo_name {
+        top: -45px;
+        left: 50px;
+    }
+} 
 
 
 //Позиция навигации
 header .header_navigation {
+    position: relative;
     justify-self: end;
-    margin: auto 0;
+    margin: 26px 0;
 }
 
 @media screen and (max-width: 1330px) {
     header .header_navigation {
-        margin:  auto 45px;
+        left: -150px;
+        justify-self: start;
+        margin:  auto 200px;
     }
 }
 
@@ -41,6 +53,7 @@ header  .header_navigation  a  .material-icons {
 
 //Позиция и стили кнопок
 .header_buttons {
+    position: relative;
     margin: 27px 4.31965443%;
 }
 
@@ -74,15 +87,17 @@ header  .header_navigation  a  .material-icons {
 
 @media screen and (max-width: 1330px) {
     .header_buttons {
+        left: -200px;
         margin: 10px 4.31965443%
     }
     .header_buttons .btn_enter{
-        padding: 7px 18px 8px 18px;
+        padding: 5px 18px 8px 18px;
     }
     .header_buttons .btn_registration {
         padding: 7px 18px 8px 18px;
         position: relative;
-        top: 15px;
+        top: 33px;
+        left: -107px;
     }
 
 }
