@@ -1,5 +1,6 @@
 //pug
 import './index.pug'
+import './page2.pug'
 //scss
 import './scss/style.scss'
 //jQuery
