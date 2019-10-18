@@ -1,1 +1,37 @@
 .sidebar
+    .sidebar__date-stay
+        label(for=".date-stay") Даты прибывания в отеле
+        .date-stay-in-hotel
+            input.date.date-stay(type="text")
+        i.material-icons expand_more
+    .sidebar__guests
+        label(for=".guests") гости
+        .count_guest
+            input.count.guests(type="text" placeholder="Сколько гостей" readonly)
+        i.material-icons expand_more
+    .sidebar__range-price
+    //
+    //
+    //
+    .sidebar__checkbox-buttons 
+        h3 checkbox buttons
+        .can-smoke
+            input.smoke(type="checkbox")
+            label(for="smoke") Можно курить
+        .can-animals
+            input.pets(type="checkbox")
+            label(for="pets") Можно c питомцами
+        .can-invite
+            input.invite(type="checkbox")
+            label(for=".smoke") Можно приглосить гостей
+            p (до 10 человек)
+    .sidebar__availability
+        h3 доступность
+        .wide-corridor
+            input.corridor(type="checkbox")
+            label(for="corridor") широкий коридор
+            p Ширина коридоров в номере не менее 91 см.
+        .disabled-assistant
+            input.assistant(type="checkbox")
+            label(for="assistant") широкий коридор
+            p На 1 этаже вас встретит специалист и проводит до номера.
