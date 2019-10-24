@@ -4,7 +4,7 @@
     height: 1357px;
 }
 
-.main2 .main2__content {
+.main2 #main2__content {
     display: grid;
     grid-template-columns: repeat(3, 270px);
     grid-template-rows: repeat(4, 257px);

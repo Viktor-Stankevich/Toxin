@@ -20,7 +20,9 @@
 }
 
 .main2 .sidebar .sidebar__date-stay .material-icons,
-.main2 .sidebar .sidebar__guests .material-icons {
+.main2 .sidebar .sidebar__guests .material-icons,
+.main2 .sidebar .sidebar__facilities .material-icons, 
+.main2 .sidebar .sidebar__additional-amenities .material-icons {
     position: relative;
     top: -35px;
     
@@ -45,6 +47,9 @@
 .main2 .sidebar .sidebar__checkbox-buttons .can-animals {
     margin-bottom: 10.56px;
 }
+
+
+
 .main2 .sidebar .sidebar__checkbox-buttons .can-invite p {
     margin: 0 23px;
     color: rgba(31, 32, 65, 0.5);
@@ -55,4 +60,34 @@
     width: 270px;
     margin: 0 23px;
     color: rgba(31, 32, 65, 0.5);
+}
+
+.main2 .sidebar .sidebar__facilities {
+    margin-top: 60px;
+}
+
+.main2 .sidebar .sidebar__facilities .facilities {
+    width: 266px;
+    height: 44px;
+
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main2 .sidebar .sidebar__additional-amenities {
+    margin-top: 70px;
+}
+.main2 .sidebar .sidebar__additional-amenities h3 {
+    cursor: pointer;
+}
+.main2 .sidebar .sidebar__additional-amenities .additional-amenities {
+    display: none;
+}
+
+.main2 .sidebar .sidebar__additional-amenities .additional-amenities ul li {
+    list-style-type: none;
+    margin-left: -30px;
+    margin-top: 8px;
 }
