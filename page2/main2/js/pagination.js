@@ -1,52 +1,54 @@
+
+
 let rooms = [
-    {img: require('../img/img1.png'), surname: '#840', price: '9 900 в сутки'},
-    {img: require('../img/img2.png'), surname: '#980', price: '9 900 в сутки'},
-    {img: require('../img/img3.png'), surname: '#856', price: '8 500 в сутки'},
-    {img: require('../img/img4.png'), surname: '#740', price: '7 300 в сутки'},
-    {img: require('../img/img5.png'), surname: '#982', price: '6 00 в сутки'},
-    {img: require('../img/img6.png'), surname: '#678', price: '5 800 в сутки'},
-    {img: require('../img/img7.png'), surname: '#450', price: '5 500 в сутки'},
-    {img: require('../img/img8.png'), surname: '#350', price: '5 300 в сутки'},
-    {img: require('../img/img9.png'), surname: '#666', price: '5 000 в сутки'},
-    {img: require('../img/img10.png'), surname: '#444', price: '5 000 в сутки'},
-    {img: require('../img/img11.png'), surname: '#352', price: '5 000 в сутки'},
-    {img: require('../img/img12.png'), surname: '#352', price: '5 000 в сутки'},
-    {img: require('../img/img3.png'), surname: '#840', price: '5 000 в сутки'},
-    {img: require('../img/img4.png'), surname: '#980', price: '5 000 в сутки'},
-    {img: require('../img/img5.png'), surname: '#856', price: '6 000 в сутки'},
-    {img: require('../img/img6.png'), surname: '#740', price: '5 500 в сутки'},
-    {img: require('../img/img7.png'), surname: '#982', price: '5 800 в сутки'},
-    {img: require('../img/img8.png'), surname: '#678', price: '4 500 в сутки'},
-    {img: require('../img/img9.png'), surname: '#450', price: '4 500 в сутки'},
-    {img: require('../img/img10.png'), surname: '#350', price: '4 500 в сутки'},
-    {img: require('../img/img11.png'), surname: '#666', price: '4 500 в сутки'},
-    {img: require('../img/img12.png'), surname: '#444', price: '4 500 в сутки'},
-    {img: require('../img/img1.png'), surname: '#352', price: '4 500 в сутки'},
-    {img: require('../img/img2.png'), surname: '#352', price: '4 500 в сутки'},
-    {img: require('../img/img3.png'), surname: '#840', price: '5 300 в сутки'},
-    {img: require('../img/img6.png'), surname: '#980', price: '5 000 в сутки'},
-    {img: require('../img/img8.png'), surname: '#856', price: '6 000 в сутки'},
-    {img: require('../img/img1.png'), surname: '#740', price: '4 700 в сутки'},
-    {img: require('../img/img12.png'), surname: '#982', price: '3 800 в сутки'},
-    {img: require('../img/img3.png'), surname: '#678', price: '4 500 в сутки'},
-    {img: require('../img/img7.png'), surname: '#450', price: '4 500 в сутки'},
-    {img: require('../img/img8.png'), surname: '#350', price: '4 500 в сутки'},
-    {img: require('../img/img9.png'), surname: '#666', price: '4 500 в сутки'},
-    {img: require('../img/img10.png'), surname: '#444', price: '4 500 в сутки'},
-    {img: require('../img/img8.png'), surname: '#352', price: '4 500 в сутки'},
-    {img: require('../img/img12.png'), surname: '#352', price: '4 500 в сутки'},
-    {img: require('../img/img1.png'), surname: '#840', price: '5 300 в сутки'},
-    {img: require('../img/img2.png'), surname: '#980', price: '5 600 в сутки'},
-    {img: require('../img/img3.png'), surname: '#856', price: '2 800 в сутки'},
-    {img: require('../img/img4.png'), surname: '#740', price: '7 000 в сутки'},
-    {img: require('../img/img5.png'), surname: '#489', price: '8 000 в сутки'},
-    {img: require('../img/img6.png'), surname: '#656', price: '4 750 в сутки'},
-    {img: require('../img/img7.png'), surname: '#450', price: '4 750 в сутки'},
-    {img: require('../img/img8.png'), surname: '#312', price: '4 750 в сутки'},
-    {img: require('../img/img9.png'), surname: '#666', price: '4 750 в сутки'},
-    {img: require('../img/img10.png'), surname: '#454', price: '5 200 в сутки'},
-    {img: require('../img/img11.png'), surname: '#382', price: '5 200 в сутки'},
-    {img: require('../img/img12.png'), surname: '#352', price: '5 200 в сутки'}
+    {img: require('../img/img1.png'), surname: '#840', price: '9 900 в сутки', review: 'отзывов'},
+    {img: require('../img/img2.png'), surname: '#980', price: '9 900 в сутки', review: 'отзывов'},
+    {img: require('../img/img3.png'), surname: '#856', price: '8 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img4.png'), surname: '#740', price: '7 300 в сутки', review: 'отзывов'},
+    {img: require('../img/img5.png'), surname: '#982', price: '6 00 в сутки', review: 'отзывов'},
+    {img: require('../img/img6.png'), surname: '#678', price: '5 800 в сутки', review: 'отзывов'},
+    {img: require('../img/img7.png'), surname: '#450', price: '5 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#350', price: '5 300 в сутки', review: 'отзывов'},
+    {img: require('../img/img9.png'), surname: '#666', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img10.png'), surname: '#444', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img11.png'), surname: '#352', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img12.png'), surname: '#352', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img3.png'), surname: '#840', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img4.png'), surname: '#980', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img5.png'), surname: '#856', price: '6 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img6.png'), surname: '#740', price: '5 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img7.png'), surname: '#982', price: '5 800 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#678', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img9.png'), surname: '#450', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img10.png'), surname: '#350', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img11.png'), surname: '#666', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img12.png'), surname: '#444', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img1.png'), surname: '#352', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img2.png'), surname: '#352', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img3.png'), surname: '#840', price: '5 300 в сутки', review: 'отзывов'},
+    {img: require('../img/img6.png'), surname: '#980', price: '5 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#856', price: '6 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img1.png'), surname: '#740', price: '4 700 в сутки', review: 'отзывов'},
+    {img: require('../img/img12.png'), surname: '#982', price: '3 800 в сутки', review: 'отзывов'},
+    {img: require('../img/img3.png'), surname: '#678', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img7.png'), surname: '#450', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#350', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img9.png'), surname: '#666', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img10.png'), surname: '#444', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#352', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img12.png'), surname: '#352', price: '4 500 в сутки', review: 'отзывов'},
+    {img: require('../img/img1.png'), surname: '#840', price: '5 300 в сутки', review: 'отзывов'},
+    {img: require('../img/img2.png'), surname: '#980', price: '5 600 в сутки', review: 'отзывов'},
+    {img: require('../img/img3.png'), surname: '#856', price: '2 800 в сутки', review: 'отзывов'},
+    {img: require('../img/img4.png'), surname: '#740', price: '7 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img5.png'), surname: '#489', price: '8 000 в сутки', review: 'отзывов'},
+    {img: require('../img/img6.png'), surname: '#656', price: '4 750 в сутки', review: 'отзывов'},
+    {img: require('../img/img7.png'), surname: '#450', price: '4 750 в сутки', review: 'отзывов'},
+    {img: require('../img/img8.png'), surname: '#312', price: '4 750 в сутки', review: 'отзывов'},
+    {img: require('../img/img9.png'), surname: '#666', price: '4 750 в сутки', review: 'отзывов'},
+    {img: require('../img/img10.png'), surname: '#454', price: '5 200 в сутки', review: 'отзывов'},
+    {img: require('../img/img11.png'), surname: '#382', price: '5 200 в сутки', review: 'отзывов'},
+    {img: require('../img/img12.png'), surname: '#352', price: '5 200 в сутки', review: 'отзывов'}
     
 
 ];
@@ -161,8 +163,18 @@ function last () {
             ratingAntReview.classList.add('ratingAntReview');
             divContent.appendChild(ratingAntReview);
                 
+            let rating = document.createElement('div');
+            rating.classList.add('star');
+            ratingAntReview.appendChild(rating);
+
+            let review = document.createElement('span');
+            let textReview = '56'
+            review.classList.add('review');
+            review.innerHTML= textReview + ' ' + not.review;
+            ratingAntReview.appendChild(review);
+
+            $('.star').raty({});
         }
-        
     }
 }
 
@@ -170,7 +182,8 @@ function last () {
     
 divGrid.innerHTML = '';
 for (let note of notes) {
-    let divContent = document.createElement('div');
+    let divContent = document.createElement('a');
+    divContent.href = '#';
     divContent.classList.add('divContent');
     divGrid.appendChild(divContent);
 
@@ -202,13 +215,19 @@ for (let note of notes) {
     divContent.appendChild(ratingAntReview);
 
     let rating = document.createElement('div');
-    rating.id = 'star';
+    rating.classList.add('star');
     ratingAntReview.appendChild(rating);
+    $('.star').raty({});
 
-   
+    let review = document.createElement('span');
+    let textReview = '56'
+    review.classList.add('review');
+    review.innerHTML= textReview + ' ' + note.review;
+    ratingAntReview.appendChild(review);
 
 }
 
 
 
 }
+
