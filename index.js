@@ -18,4 +18,6 @@ import './header/js/header'
 import './header/buttons/btn_register/js/datepicker'
 import './main/number-for-you/js/number-for-you'
 import './page2/main2/sidebar/js/sidebar'
+import './page3/main3/js/main3'
 import './page2/main2/js/pagination'
+
