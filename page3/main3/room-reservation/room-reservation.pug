@@ -1,0 +1,36 @@
+.room-reservation__price-and-name
+    h3 #888
+    span люкс
+    p 9 990&#8381 в сутки
+.room-reservation__arival-and-departure
+    label(for=".room-reservation__date-arrival") прибытие
+        input.date.room-reservation__date-arrival(type="text" placeholder="ДД.ММ.ГГГГ" autocompete="off" readonly)
+        i.material-icons expand_more
+    label(for=".room-reservation__date-departure") выезд
+        input.date.room-reservation__date-departure(type="text" placeholder="ДД.ММ.ГГГГ" autocompete="off" readonly)
+        i.material-icons expand_more
+.room-reservation__guests
+    label(for=".guests") гости
+        .count_guest
+            input.count.guests(type="text" placeholder="Сколько гостей" readonly)
+        i.material-icons expand_more
+.room-reservation__price-x-day
+    p 9 990&#8381 x 
+    span.dayX 00 
+    p cуток
+    span.priceX 000
+    p &#8381
+.room-reservation__service-fee
+    p Сбор за услуги: скидка 000&#8381
+    p.priceService 000&#8381
+.room-reservation__extra-service-fee
+    p Сбор за дополнительные услуги
+    p.priceExtraService 000&#8381
+.room-reservation__result
+    h2 Итого 
+    span.resultX 000
+    p &#8381
+.room-reservation__reserv
+    p
+        input(type="submit" value="забронировать") 
+        i.material-icons arrow_forward
