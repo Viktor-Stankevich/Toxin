@@ -27,14 +27,25 @@
 .main3_content .main3_content__main-part .room-information {
     display: grid;
     grid-template-rows: 24px 249px;
-    padding-top: 58px;
+    padding-top: 50px;
+}
+
+.main3_content .main3_content__main-part .room-information .title h2,
+.main3_content .main3_content__main-part .room-impressions h2 {
+    font-family: 'Conv_Quicksand-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+
+    color: #1F2041;
 }
 
 .main3_content .main3_content__main-part .room-information .information {
     display: grid;
     grid-template-rows: repeat(3, 59.6666667px);
     gap: 21px;
-    margin-top: 21px;
+    margin-top: 39px;
 }
 
 
@@ -109,4 +120,70 @@
     padding-top: 19px;
 }
 
+.main3_content .main3_content__main-part .rules ul {
+    list-style-type: none;
+}
+
+.main3_content .main3_content__main-part .rules ul li::before {
+    content: "\2B24";
+    margin-right: 10px;
+    margin-left: -25px;
+    color: rgba(31, 32, 65, 0.25);
+}
+.main3_content .main3_content__main-part .rules ul li {
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+.main3_content .main3_content__main-part .rules h2, 
+.main3_content .main3_content__main-part .cancel h2 {
+    font-family: 'Conv_Quicksand-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+
+    color: #1F2041;
+}
+
+.main3_content .main3_content__main-part .rules h2 {
+    margin-left: 15px;
+}
+
+.main3_content .main3_content__main-part .room-impressions {
+    padding-top: 50px;
+}
+.main3_content .main3_content__main-part .room-impressions canvas {
+    width: 120px !important;
+    height: 120px !important;
+}
+.main3_content .main3_content__main-part .room-impressions {
+    display: grid;
+    grid-template-columns: 120px 191px;
+    grid-template-rows: 45px 125px;
+}
+
+.main3_content .main3_content__main-part .room-impressions .discription {
+    margin-right: 30px;
+}
+
+.main3_content .main3_content__main-part .room-impressions .title {
+    grid-column: 1 / 3;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.yellow {
+    color: #FFBA9C;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.green {
+    color: #66D2EA;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.black {
+    color: #3D4975;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li span {
+    color: black;
+}
 @import '../room-reservation/scss/room-reservation.scss';

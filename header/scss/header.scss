@@ -4,6 +4,12 @@ header {
     display: grid;
     grid-template-columns: 17.0618056% 50.7854167% 32.1527778%;
 }
+
+header a:hover {
+    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(31, 32, 65, 0.75);
+}
 //Позиция логотипа
 header .header_logo {
     display: inline;

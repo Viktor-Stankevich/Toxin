@@ -35,12 +35,14 @@ a {
 
     font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
 
     color: rgba(31, 32, 65, 0.5);
 }
+
+
 
 .material-icons {
     font-family: 'Material_Icons';
@@ -107,6 +109,17 @@ label {
     text-transform: uppercase;
 
     color: #1f2041;
+}
+
+//Стили для списка
+li {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(31, 32, 65, 0.75);
 }
 
 

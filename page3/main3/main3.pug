@@ -9,7 +9,7 @@ main.main3_content
     .main3_content__main-part
         .room-information
             .title
-                h3 Свединия о номере
+                h2 Свединия о номере
             .information
                 .comfort
                     img(src=require('./img/insert_emoticon.png'))
@@ -24,6 +24,20 @@ main.main3_content
                     h3 Уют
                     p  Номер оснащен камином
         .room-impressions
+            .title
+                h2 Впечатления от номера
+            .chart
+                canvas#myChart(width="400" height="400")
+            .discription
+                ul
+                    li.yellow
+                        span Великолепно
+                    li.green
+                        span Хорошо
+                    li.purple
+                        span Удовлетворительно
+                    li.black
+                        span Разочарова
         .room-reservation
             form.room-reservation__content(method="post")
                 include room-reservation/room-reservation
@@ -65,11 +79,11 @@ main.main3_content
                     p Обслуживание на высоте! Всё аккуратно, чисто. Завтраки в номер советую заказать, каждый день новое блюдо и десерт как комплимент.
             .second-review
         .rules
-            h3 Првила
+            h2 Правила
             ul
                 li Нельзя с питомцами
                 li Без вечеринок и мероприятий
                 li Время прибытия - после 13:00, а выезд до 12:00
         .cancel
-            h3 Отмена
+            h2 Отмена
                 p Бесплатная отмена в течение 48 ч. После этого при отмене не позднее чем за 5 дн. до прибытия вы получите полный возврат за вычетом сбора за услуги.
