@@ -1,0 +1,202 @@
+html, body {
+    margin: auto;
+    padding: 0;
+    max-width: 1920px;
+    width: 1440px;
+    min-width: 320px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+    display: grid;
+    grid-template-rows: 70px 830px 443px;
+}
+.wrapper2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 1330px) {
+    .wrapper {
+        width: 60%;
+    }
+}
+
+@import '../header/scss/header.scss';
+
+//Стили и шрифты для ссылок
+a {
+    text-decoration: none;
+
+
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+
+
+.material-icons {
+    font-family: 'Material_Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+//Стили для заголовков
+h1, h2 {
+    font-family: 'Conv_Quicksand-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #1F2041;
+}
+
+h3 {
+    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #1F2041;
+}
+
+//Стили для абзацев
+p {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+//Стили для label 
+label {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+
+    color: #1f2041;
+}
+
+//Стили для списка
+li {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: rgba(31, 32, 65, 0.75);
+}
+
+
+//Стили для гибких изоброжений 
+
+.flexible-image {
+    max-width: 100%;
+}
+
+//Стили для значения кнопок отправки формы
+input[type="submit"] {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+//Стили для плейсхолдеров   
+
+//Chrome
+input::-webkit-input-placeholder {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding: 12px 265px 8px 15px;
+}     
+
+//Edge
+input:-ms-input-placeholder {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding: 12px 265px 8px 15px;
+}
+
+//Firefox 19+
+input::-moz-placeholder {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding: 12px 265px 8px 15px;
+}
+
+//firefox 18-
+input:-moz-placeholder{
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding: 12px 265px 8px 15px;
+}
+
+@media screen and (max-width: 1330px) {
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+    }
+}
+@import '../main/number-for-you/js/count/css/count.scss';
+@import './fonts.scss';
+@import '../../node_modules/air-datepicker/dist/css/datepicker.css';
+@import '../main/scss/main.scss';
+@import '../footer/scss/footer.scss';
+@import '../page2/main2/scss/main2.scss';
+@import '../page2/main2/sidebar/js/count_facilities/css/count_facilities.scss';
+@import '../page2/main2/js/scss/pagination.scss';
+@import '../page3/main3/scss/main3_content.scss';

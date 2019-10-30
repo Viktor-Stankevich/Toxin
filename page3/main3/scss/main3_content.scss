@@ -1,0 +1,189 @@
+.main3_content {
+    width: 100%;
+    height: 1424px;
+}
+
+.main3_content__img {
+    display: grid;
+    grid-template-rows: repeat(2, 242.5px);
+    grid-template-columns: 981px 461px;
+    width: 100%;
+    height: 485px;
+}
+
+.main3_content__img .img1 {
+    grid-row: 1 / 3;
+}
+
+.main3_content .main3_content__main-part {
+    width: 100%;
+    height: 939px;
+    display: grid;
+    grid-template-columns: repeat(3, 386.666667px);
+    grid-template-rows: 373px 306px 260px;
+    margin-left: 140px;
+}
+
+.main3_content .main3_content__main-part .room-information {
+    display: grid;
+    grid-template-rows: 24px 249px;
+    padding-top: 50px;
+}
+
+.main3_content .main3_content__main-part .room-information .title h2,
+.main3_content .main3_content__main-part .room-impressions h2 {
+    font-family: 'Conv_Quicksand-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+
+    color: #1F2041;
+}
+
+.main3_content .main3_content__main-part .room-information .information {
+    display: grid;
+    grid-template-rows: repeat(3, 59.6666667px);
+    gap: 21px;
+    margin-top: 39px;
+}
+
+
+.main3_content .main3_content__main-part .room-information .information .comfort,
+.main3_content .main3_content__main-part .room-information .information .convenience,
+.main3_content .main3_content__main-part .room-information .information .cosiness {
+    display: grid;
+    grid-template-rows: repeat(2, 24px);
+    grid-template-columns: 48px 233px;
+}
+
+.main3_content .main3_content__main-part .room-information .information .comfort p, 
+.main3_content .main3_content__main-part .room-information .information .comfort h3,
+.main3_content .main3_content__main-part .room-information .information .convenience p,
+.main3_content .main3_content__main-part .room-information .information .convenience h3,
+.main3_content .main3_content__main-part .room-information .information .cosiness p, 
+.main3_content .main3_content__main-part .room-information .information .cosiness h3 {
+    line-height: 0;
+}
+
+.main3_content .main3_content__main-part .room-information .information .comfort img,
+.main3_content .main3_content__main-part .room-information .information .convenience img,
+.main3_content .main3_content__main-part .room-information .information .cosiness img {
+    grid-row: 1 / 3;
+}
+
+
+
+.main3_content .main3_content__main-part .room-reservation {
+    grid-column: 3 / 3;
+    grid-row: 1 / 4;
+}
+
+.main3_content .main3_content__main-part .room-reservation .room-reservation__content {
+    width: 380px;
+    height: 511px;
+
+    margin-top: 70px;
+    padding: 40px 30px 30px 30px;
+
+    display: grid;
+    grid-template-rows: 60px 84.44px 84.56px repeat(2, 34px) 66px repeat(2, 44px);
+
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+
+.main3_content .main3_content__main-part .visitor-reviews {
+    display: grid;
+    grid-template-rows: 24px repeat(2, 141px);
+    grid-column: 1 / 3;
+}
+
+.main3_content .main3_content__main-part .visitor-reviews  .first-review,
+.main3_content .main3_content__main-part .visitor-reviews .second-review {
+    display: grid;
+    grid-template-rows: 58px 72px;
+    grid-template-columns: 47.67px 653px;
+}
+
+.main3_content .main3_content__main-part .visitor-reviews  .first-review .logo, 
+.main3_content .main3_content__main-part .visitor-reviews .second-review .logo {
+    margin-left: -25px;
+}
+
+.main3_content .main3_content__main-part .visitor-reviews  .first-review .likes, 
+.main3_content .main3_content__main-part .visitor-reviews  .second-review .likes {
+    padding-top: 19px;
+}
+
+.main3_content .main3_content__main-part .rules ul {
+    list-style-type: none;
+}
+
+.main3_content .main3_content__main-part .rules ul li::before {
+    content: "\2B24";
+    margin-right: 10px;
+    margin-left: -25px;
+    color: rgba(31, 32, 65, 0.25);
+}
+.main3_content .main3_content__main-part .rules ul li {
+    margin-top: 10px;
+    margin-right: 70px;
+}
+
+.main3_content .main3_content__main-part .rules h2, 
+.main3_content .main3_content__main-part .cancel h2 {
+    font-family: 'Conv_Quicksand-Bold', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+
+    color: #1F2041;
+}
+
+.main3_content .main3_content__main-part .rules h2 {
+    margin-left: 15px;
+}
+
+.main3_content .main3_content__main-part .room-impressions {
+    padding-top: 50px;
+}
+.main3_content .main3_content__main-part .room-impressions canvas {
+    width: 120px !important;
+    height: 120px !important;
+}
+.main3_content .main3_content__main-part .room-impressions {
+    display: grid;
+    grid-template-columns: 120px 191px;
+    grid-template-rows: 45px 125px;
+}
+
+.main3_content .main3_content__main-part .room-impressions .discription {
+    margin-right: 30px;
+}
+
+.main3_content .main3_content__main-part .room-impressions .title {
+    grid-column: 1 / 3;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.yellow {
+    color: #FFBA9C;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.green {
+    color: #66D2EA;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li.black {
+    color: #3D4975;
+}
+
+.main3_content .main3_content__main-part .room-impressions ul li span {
+    color: black;
+}
+@import '../room-reservation/scss/room-reservation.scss';

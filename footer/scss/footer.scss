@@ -1,0 +1,122 @@
+.footer {
+    position: relative;
+    top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 248px);
+    padding: 85px 100px;
+    width: 100%;
+    height: 163px;
+    
+}
+
+.footer a:hover {
+    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(31, 32, 65, 0.75);
+}
+
+// @media screen and (max-width: 1330px) {
+//     .footer {
+  
+        
+
+//         grid-template-columns: repeat(3, 242px);
+//         grid-template-rows: repeat(2, 195px);
+//     }
+// }
+
+
+
+.footer .footer__logo-and-discription .fotter__logo_image {
+    margin: 15px 0;
+}
+
+.footer .footer__logo-and-discription .footer__logo_name {
+    padding: 28.33px 12.5px;
+}
+.footer .footer__logo-and-discription p {
+    width: 260px;
+}
+
+.footer .footer__navigation h3 {
+    margin-left: 45px;
+}
+
+.footer .footer__navigation ul li,
+.footer .footer__about-us ul li,
+.footer .footer__support ul li {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.footer .footer__about-us ul li {
+    margin-left: -41px;
+}
+.footer .footer__support ul li{
+    margin-left: -86px;
+}
+
+.footer .footer__about-us h3 {
+    margin-left: -2px;
+}
+
+.footer .footer__support h3 {
+    margin-left: -45px;
+}
+
+@media screen and (max-width: 1330px) {
+    .footer .footer__support {
+        margin-left: 40px;
+    }
+}
+ 
+.footer .footer__subscribe {
+    margin-left: -89px;
+}
+
+@media screen and (max-width: 1330px) {
+    .footer .footer__subscribe {
+        margin-left: 45px;
+    }
+}
+
+.footer .footer__subscribe input {
+    width: 260px;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.footer .footer__subscribe .material-icons {
+    position: relative;
+    top: 6px;
+    left: -30px;
+    color: #8BA4F9;
+}
+
+@media screen and (max-width: 1330px) {
+    .footer .footer__subscribe .material-icons {
+        top: -35px;
+        left: 230px;
+    }
+}
+.footer__copyright-bar {
+    display: flex;
+}
+
+.footer__copyright-bar p {
+    margin-right: 940px;
+}
+
+.footer__copyright-bar a {
+    margin-right: 20px;
+}
+
+.footer .footer__copyright-line hr {
+    width: 1440px;
+}

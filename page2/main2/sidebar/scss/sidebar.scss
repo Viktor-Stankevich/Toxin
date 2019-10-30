@@ -1,0 +1,93 @@
+.main2 .sidebar {
+    display: grid;
+    grid-template-rows: repeat(2, 64px) 65.66px 128.68px 105px 63.56px 15px;
+    row-gap: 30px;
+    width: 22.3472222%;
+    height: 1357px;
+    padding: 30px 0 0 140px;
+}
+
+
+.main2 .sidebar .sidebar__date-stay .date-stay-in-hotel input,
+.main2 .sidebar .sidebar__guests .count_guest input {
+    width: 266px;
+    height: 44px;
+
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main2 .sidebar .sidebar__date-stay .material-icons,
+.main2 .sidebar .sidebar__guests .material-icons,
+.main2 .sidebar .sidebar__facilities .material-icons, 
+.main2 .sidebar .sidebar__additional-amenities .material-icons {
+    position: relative;
+    top: -35px;
+    
+    margin-left: 235px;
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+
+.main2 .sidebar .sidebar__checkbox-buttons label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.5);
+    text-transform: none;
+}
+
+.main2 .sidebar .sidebar__checkbox-buttons .can-smoke {
+    margin-top: 16.56px;
+}
+.main2 .sidebar .sidebar__checkbox-buttons .can-smoke,
+.main2 .sidebar .sidebar__checkbox-buttons .can-animals {
+    margin-bottom: 10.56px;
+}
+
+
+
+.main2 .sidebar .sidebar__checkbox-buttons .can-invite p {
+    margin: 0 23px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.main2 .sidebar .sidebar__availability .wide-corridor p,
+.main2 .sidebar .sidebar__availability .disabled-assistant p {
+    width: 270px;
+    margin: 0 23px;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.main2 .sidebar .sidebar__facilities {
+    margin-top: 60px;
+}
+
+.main2 .sidebar .sidebar__facilities .facilities {
+    width: 266px;
+    height: 44px;
+
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.main2 .sidebar .sidebar__additional-amenities {
+    margin-top: 70px;
+}
+.main2 .sidebar .sidebar__additional-amenities h3 {
+    cursor: pointer;
+}
+.main2 .sidebar .sidebar__additional-amenities .additional-amenities {
+    display: none;
+}
+
+.main2 .sidebar .sidebar__additional-amenities .additional-amenities ul li {
+    list-style-type: none;
+    margin-left: -30px;
+    margin-top: 8px;
+}

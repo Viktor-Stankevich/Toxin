@@ -1,0 +1,219 @@
+.content_registration{
+    width: 380px;
+    height: 646px;
+    margin: auto;
+    padding: 0 30px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.content_registration__registration-name h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.content_registration__registration-birthday-name h2,
+.content_registration__registration-data-for-enter-name h2 {
+    font-family: 'Conv_Montserrat-Regular', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.content_registration__registration-input-name input,
+.content_registration__registration-input-secondName input,
+.content_registration__registration-birthday-input input,
+.content_registration__registration-data-for-enter-email input,
+.content_registration__registration-data-for-enter-password input {
+    width: 320px;
+    height: 44px;
+    margin-top: 6px;
+    
+    background-color: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.content_registration__registration-birthday-input input {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.content_registration__registration-data-for-enter-email {
+    margin-top: -11px;
+}
+
+.content_registration__registration-btn input {
+    width: 320px;
+    height: 44px;
+
+    cursor: pointer;
+
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    color: #fff;
+
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+}
+
+.content_registration__registration-btn .material-icons {
+    position: relative;
+    top: -35px;
+    float: right;
+    margin-right: 10px;
+
+    color: #fff;
+}
+
+.content_registration__registration-noAccount {
+    display: grid;
+    grid-template-columns: 220px 100px;
+    margin-top: 30px;
+}
+
+.content_registration__registration-noAccount .btn_enter {
+    text-align: center;
+    width: 62px;
+    height: 15px;
+    margin-left: 0px;
+
+    border: 2px solid #BC9CFF;
+    padding: 14px 19px 15px 18px;
+    border-radius: 22px;
+
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+}
+
+.content_registration__registration-sex {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 23,56px;
+}
+
+.content_registration__registration-special {
+  width: 320px;
+}
+
+.content_registration__registration-special  p {
+  float: right;
+  margin: 10px 60px auto auto;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+.checkbox input[type="checkbox"]:checked~.custom-checkbox:after {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #8BA4F9;
+}
+.custom-checkbox {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 50%; 
+}
+.custom-checkbox:after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  left: 4px;
+  bottom: 4px;
+}
+
+.content_registration__registration-sex .male {
+  margin-right: 20px;
+}
+
+
+
+//Свич переключатель
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

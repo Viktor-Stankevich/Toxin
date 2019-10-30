@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'Conv_Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.eot');
+	src: local('☺'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'), url('../fonts/Montserrat-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.count_guest .countOne {
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+    padding: 7px 7px 13px 15px;
+    margin: 0;
+    z-index: 99999999;
+    display: none;
+}
+
+
+.count_guest .countOne .adult .plus_adult,
+.count_guest .countOne .adult .minus_adult,
+.count_guest .countOne .child .plus_child,
+.count_guest .countOne .child .minus_child,
+.count_guest .countOne .baby .plus_baby,
+.count_guest .countOne .baby .minus_baby {
+    cursor: pointer;
+    width: 30px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    font: inherit !important;
+    color: inherit !important;
+    background-color: transparent !important;
+    border: 1px solid rgba(31, 32, 65, 0.25) !important;
+    box-sizing: border-box !important;
+    border-radius: 22px !important;
+}
+
+.count_guest .countOne .adult .plus_adult {
+    margin-left: 130px;
+}
+
+.count_guest .countOne .child .plus_child {
+    margin-left: 167px;
+}
+.count_guest .countOne .baby .plus_baby{
+    margin-left: 122px;
+}
+
+.count_guest .countOne .adult .result_adult, 
+.count_guest .countOne .child .result_child, 
+.count_guest .countOne .baby .result_baby {
+    width: 30px !important;
+    height: 30px !important;
+    border: none !important;
+    padding-left: 10px !important;
+}
+
+.count_guest .countOne .clear,
+.count_guest .countOne .aplly {
+    cursor: pointer !important;
+    padding: 0 !important;
+    border: none !important;
+    font: inherit !important;
+    background-color: transparent !important; 
+    font-family: 'Conv_Montserrat-Bold', Arial, Helvetica, sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+
+    text-transform: uppercase !important;
+}
+
+.count_guest .countOne .clear {
+    color: rgba(31, 32, 65, 0.5) !important;
+    margin-right: 40px !important;
+}
+
+.count_guest .countOne .aplly {
+    color: #BC9CFF;
+}

@@ -1,0 +1,94 @@
+#table td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#pagination {
+    position: relative;
+    display: flex;
+    padding: 0;
+    height: 40px;
+    border: 0;
+    list-style-type: none;
+    top: 1138px;
+    right: 545px;
+}
+
+
+#pagination li {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+
+    
+    border-radius: 22px;
+}
+#pagination span {
+    position: relative;
+    width: 300px;
+    top: 50px;
+    right: 200px;
+}
+
+#pagination li:hover, #pagination li.active {
+    cursor: pointer;
+    color: #fff;
+    background-color: #8BA4F9;
+}
+
+#pagination .lastPage {
+    background-color: #66D2EA;
+}
+
+
+#main2__content {
+    width: 270px;
+    height: 257px;
+}
+
+#main2__content .divContent {
+    width: 270px;
+    height: 257px;
+    display: grid;
+    grid-template-rows: 151.38px repeat(2, 52.81px);
+
+}
+
+#main2__content .divContent .imgContainer img {
+    width: 270px;
+    height: 151.38px;
+}
+
+#main2__content .divContent .nameAndPrice {
+    display: flex;
+}
+
+#main2__content .divContent .nameAndPrice h3 {
+    width: 54px;
+    height: 24px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+#main2__content .divContent .ratingAntReview {
+    display: flex;
+}
+
+
+#main2__content .divContent .star {
+    width: 120px !important;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+#main2__content .divContent .review {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(31, 32, 65, 0.5);
+}

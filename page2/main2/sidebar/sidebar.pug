@@ -1,0 +1,71 @@
+.sidebar
+    .sidebar__date-stay
+        label(for=".date-stay") Даты прибывания в отеле
+        .date-stay-in-hotel
+            input.date.date-stay(type="text" placeholder="ДД.ММ.ГГГГ - ДД.ММ.ГГГГ" data-multiple-dates-separator=" - ")
+        i.material-icons expand_more
+    .sidebar__guests
+        label(for=".guests") гости
+        .count_guest
+            input.count.guests(type="text" placeholder="Сколько гостей" readonly)
+        i.material-icons expand_more
+    .sidebar__range-price
+    //
+    //
+    //
+    .sidebar__checkbox-buttons 
+        h3 checkbox buttons
+        .can-smoke
+            input.smoke(type="checkbox")
+            label(for="smoke") Можно курить
+        .can-animals
+            input.pets(type="checkbox")
+            label(for="pets") Можно c питомцами
+        .can-invite
+            input.invite(type="checkbox")
+            label(for=".smoke") Можно приглосить гостей
+            p (до 10 человек)
+    .sidebar__availability
+        h3 доступность
+        .wide-corridor
+            input.corridor(type="checkbox")
+            label(for="corridor") широкий коридор
+            p Ширина коридоров в номере не менее 91 см.
+        .disabled-assistant
+            input.assistant(type="checkbox")
+            label(for="assistant") широкий коридор
+            p На 1 этаже вас встретит специалист и проводит до номера.
+    .sidebar__facilities
+        h3 удобства номера
+        .count__facilities
+            input.facilities(type="text" readonly)
+        i.material-icons expand_more
+    .sidebar__additional-amenities
+        h3.click__additional-amenities дополнительные удобства
+        i.material-icons expand_more
+        .additional-amenities
+            ul
+                li
+                    input.breakfast(type="checkbox")
+                    label(for="breakfast") завтрак
+                li    
+                    input.desk(type="checkbox")
+                    label(for="desk") Письменный стол
+                li
+                    input.feeding-chair(type="checkbox")
+                    label(for="feeding-chair") Стул для кормления
+                li
+                    input.crib(type="checkbox")
+                    label(for="crib") Кроватка
+                li
+                    input.tv(type="checkbox")
+                    label(for="tv") Телевизор
+                li
+                    input.shampoo(type="checkbox")
+                    label(for="shampoo") Шампунь
+                li
+                    input.tv(type="checkbox")
+                    label(for="tv") Телевизор
+                li
+                    input.shampoo(type="checkbox")
+                    label(for="shampoo") Шампунь
