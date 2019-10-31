@@ -8,7 +8,7 @@ const sass = require('sass-loader')
 
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './index.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
@@ -26,15 +26,15 @@ module.exports = {
     plugins: [
         new HTMLPlugin({
             filename: 'index.html',
-            template: './src/index.pug'
+            template: './index.pug'
         }),
         new HTMLPlugin({
             filename: 'page2.html',
-            template: './src/page2.pug'
+            template: './page2.pug'
         }),
         new HTMLPlugin({
             filename: 'page3.html',
-            template: './src/page3.pug'
+            template: './page3.pug'
         }),
         new MiniCssExtractPlugin({
             filename: 'style.css'
